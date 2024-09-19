@@ -25,11 +25,12 @@ public class CarPostStoreServiceImpl implements CarPostStoreService{
 		carPostStoryClient.changeCarForSaleClient(carPostDTO, id);
 		
 	}
+	
 
 	@Override
-	public void removeCarPostDto(String id) {
-		carPostStoryClient.deletecarForSaleClient(id);
+	public void removeCarForSale(String id) {
 		
+		carPostStoryClient.deleteCarForSaleClient(id);
 	}
 
 }
