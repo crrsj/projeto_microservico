@@ -12,5 +12,6 @@ public interface CarPostStoreService {
 	List<CarPostDTO>getcarForSales();
 	
 	void changeCarForSale(CarPostDTO carPostDTO, String id);
-	void removeCarPostDto(String id);
+	
+	void removeCarForSale(String id);
 }

@@ -35,7 +35,7 @@ public class CarPostStoreClient {
 		restTemplate.put(POSTS_STORE_SERVICE_URI+"/car/"+id,carPostDTO,CarPostDTO.class);
 	}
 	
-	public void deletecarForSaleClient(String id) {
+	public void deleteCarForSaleClient(String id) {
 		restTemplate.delete(POSTS_STORE_SERVICE_URI+"/car/"+id);
 	}
 }
